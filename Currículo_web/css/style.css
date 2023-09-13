@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: rgb(211, 211, 211);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+#atributos {
+    background-color: rgb(36, 35, 35);
+    color: white;
+    width: 100%;
+    max-width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+#atributos sub {
+    font-size: 24px;
+}
+
+#conteudo {
+    flex: 1;
+    max-width: calc(100% - 300px);
+    padding: 20px;
+}
+
+header {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#habilidades {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    text-align: left;
+    width: 100%;
+}
+
+#foto img {
+    width: 100%;
+    max-width: 300px;
+}
+
+.info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.info ul li {
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+    .container {
+        flex-direction: column;
+    }
+}
