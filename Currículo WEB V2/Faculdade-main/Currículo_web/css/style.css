@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: rgb(211, 211, 211);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.left-column {
+    flex: 1;
+    max-width: 400px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.right-column {
+    flex: 2;
+    max-width: calc(100% - 420px);
+    margin-bottom: 20px;
+}
+
+#foto img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.info {
+    margin-bottom: 20px;
+}
+
+.info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.info ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.skill {
+    margin-bottom: 10px;
+}
+
+.skill label {
+    display: inline-block;
+    width: 80px;
+    font-size: 16px;
+}
+
+.skill progress {
+    width: calc(100% - 80px);
+    vertical-align: middle;
+}
+
+header {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    text-align: left;
+}
+
+@media (max-width: 767px) {
+    .left-column, .right-column {
+        max-width: 100%;
+        margin-right: 0;
+    }
+    
+    .left-column {
+        order: 2;
+    }
+
+    .right-column {
+        order: 1;
+    }
+}
+
+.project {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.project a {
+    flex: 0 0 calc(33.33% - 10px);
+    margin-bottom: 20px;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.project a:nth-child(3n) {
+    margin-right: 0;
+}
+
+@media (max-width: 767px) {
+    .project a {
+        flex: 0 0 calc(50% - 10px);
+    }
+}
