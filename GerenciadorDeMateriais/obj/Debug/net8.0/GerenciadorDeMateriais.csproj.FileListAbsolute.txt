@@ -1,0 +1,14 @@
+C:\Users\SirMa\OneDrive\Documentos\Faculdade\.NET\GerenciadorDeMateriais\bin\Debug\net8.0\GerenciadorDeMateriais.exe
+C:\Users\SirMa\OneDrive\Documentos\Faculdade\.NET\GerenciadorDeMateriais\bin\Debug\net8.0\GerenciadorDeMateriais.deps.json
+C:\Users\SirMa\OneDrive\Documentos\Faculdade\.NET\GerenciadorDeMateriais\bin\Debug\net8.0\GerenciadorDeMateriais.runtimeconfig.json
+C:\Users\SirMa\OneDrive\Documentos\Faculdade\.NET\GerenciadorDeMateriais\bin\Debug\net8.0\GerenciadorDeMateriais.dll
+C:\Users\SirMa\OneDrive\Documentos\Faculdade\.NET\GerenciadorDeMateriais\bin\Debug\net8.0\GerenciadorDeMateriais.pdb
+C:\Users\SirMa\OneDrive\Documentos\Faculdade\.NET\GerenciadorDeMateriais\obj\Debug\net8.0\GerenciadorDeMateriais.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SirMa\OneDrive\Documentos\Faculdade\.NET\GerenciadorDeMateriais\obj\Debug\net8.0\GerenciadorDeMateriais.AssemblyInfoInputs.cache
+C:\Users\SirMa\OneDrive\Documentos\Faculdade\.NET\GerenciadorDeMateriais\obj\Debug\net8.0\GerenciadorDeMateriais.AssemblyInfo.cs
+C:\Users\SirMa\OneDrive\Documentos\Faculdade\.NET\GerenciadorDeMateriais\obj\Debug\net8.0\GerenciadorDeMateriais.csproj.CoreCompileInputs.cache
+C:\Users\SirMa\OneDrive\Documentos\Faculdade\.NET\GerenciadorDeMateriais\obj\Debug\net8.0\GerenciadorDeMateriais.dll
+C:\Users\SirMa\OneDrive\Documentos\Faculdade\.NET\GerenciadorDeMateriais\obj\Debug\net8.0\refint\GerenciadorDeMateriais.dll
+C:\Users\SirMa\OneDrive\Documentos\Faculdade\.NET\GerenciadorDeMateriais\obj\Debug\net8.0\GerenciadorDeMateriais.pdb
+C:\Users\SirMa\OneDrive\Documentos\Faculdade\.NET\GerenciadorDeMateriais\obj\Debug\net8.0\GerenciadorDeMateriais.genruntimeconfig.cache
+C:\Users\SirMa\OneDrive\Documentos\Faculdade\.NET\GerenciadorDeMateriais\obj\Debug\net8.0\ref\GerenciadorDeMateriais.dll
