@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Listar Universidades</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <img src="src/imagem.jpg" alt="Imagem de uma universidade" class="logo" />
+      <h1>Lista de Universidades</h1>
+      <div class="highlight-section">
+        <p>
+          Bem-vindo ao site! Aqui você pode pesquisar e explorar universidades
+          em todo o mundo.
+        </p>
+      </div>
+      <div class="form-group">
+        <label for="countryInput">Digite o nome do país em inglês:</label>
+        <div class="input-group">
+          <input type="text" id="countryInput" class="form-control" />
+          <button id="searchBtn" class="btn btn-primary">
+            <i class="fas fa-search"></i> Buscar
+          </button>
+        </div>
+        <a href="translations.html" class="btn btn-secondary mt-3"
+          >Ver traduções dos países</a
+        >
+        <small id="countryInputHelp" class="form-text text-muted"
+          >Por favor, insira o nome do país em inglês.</small
+        >
+      </div>
+      <div id="universitiesList"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="../script/script.js"></script>
+  </body>
+</html>
